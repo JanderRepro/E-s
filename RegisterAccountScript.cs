@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class RegisterAccountScript : MonoBehaviour {
 
-    public string path = "http://box5278.temp.domains/~graviui5/loginregister.php";
-    private string quietdonttellanybody = "eT0lxSaSImMQG9an7f3b";
+    public string path = "REDACTED";
+    private string quietdonttellanybody = "REDACTED";
     public string action;
     public InputField useri;
     public InputField emaili;
