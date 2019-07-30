@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UserScript : MonoBehaviour {
 
-    public string path = "http://box5278.temp.domains/~graviui5/loginregister.php";
+    public string path = "REDACTED";
     public string username;
     public Text userui;
     public bool locationconsent = false;
