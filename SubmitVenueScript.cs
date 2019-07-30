@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class SubmitVenueScript : MonoBehaviour {
 
-    public string path = "http://box5278.temp.domains/~graviui5/addvenue.php";
-    private string quietdonttellanybody = "eT0lxSaSImMQG9an7f3b";
+    public string path = "REDACTED";
+    private string quietdonttellanybody = "REDACTED";
     public InputField namei;
     public InputField addressi;
     public InputField websitei;
