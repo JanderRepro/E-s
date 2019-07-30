@@ -7,8 +7,8 @@ public class FindVenuesScript : MonoBehaviour
 {
     public Text notetext;
     public Button backbut;
-    private string quietdonttellanybody = "eT0lxSaSImMQG9an7f3b";
-    public string path = "http://box5278.temp.domains/~graviui5/loclist.php";
+    private string quietdonttellanybody = "REDACTED";
+    public string path = "REDACTED";
     public Vector2 urhere;
     public bool isrunning = false;
     public float herex;
@@ -69,16 +69,6 @@ public class FindVenuesScript : MonoBehaviour
             return;
         }
         else StartCoroutine(LocationMethod());
-        /*else
-        {
-            notetext.text = "Location disabled!";
-            notetext.color = Color.red;
-            //testing below
-            herex = 38.2491f;
-            herey = -85.7308f;
-            StartCoroutine(CallDB());
-            splashpanel.transform.localScale = Vector3.zero;
-        }*/
     }
 
     IEnumerator LocationMethod()
