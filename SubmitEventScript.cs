@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class SubmitEventScript : MonoBehaviour
 {
 
-    public string path = "http://box5278.temp.domains/~graviui5/addshindig.php";
-    private string quietdonttellanybody = "eT0lxSaSImMQG9an7f3b";
+    public string path = "REDACTED";
+    private string quietdonttellanybody = "REDACTED";
     public InputField namei;
     public Dropdown category;
     public InputField byear;
